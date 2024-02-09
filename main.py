@@ -27,16 +27,16 @@ surveyResults = open("survey-results.txt", "r")
 #         totalOdd = totalOdd + 1
 # print(totalEven, totalOdd)
 
-totalYes = 0
-totalNo = 0
-totalMaybe = 0
-for x in surveyResults:
-    if x == "Yes":
-        totalYes = totalYes + 1
-    elif x == "No":
-        totalNo = totalNo + 1
-    else:
-        totalMaybe = totalMaybe + 1
-print(totalYes, totalNo, totalMaybe)
+# totalYes = 0
+# totalNo = 0
+# totalMaybe = 0
+# for x in surveyResults:
+#     if x == "Yes\n" or x == "Yes":
+#         totalYes = totalYes + 1
+#     elif x == "No\n" or x == "No":
+#         totalNo = totalNo + 1
+#     elif x == "Maybe\n" or x == "Maybe":
+#         totalMaybe = totalMaybe + 1
+# print(totalYes, totalNo, totalMaybe)
 
-#ill see if i can fix it later
+# might be a better way to do this that i can't think of rn
